@@ -1,0 +1,61 @@
+<div class="background">
+  <div class="container">
+    <div class="jumbotron">
+      <img class="avatarimage img-circle"src="images/avatar.jpg" alt="I'm Yeoman"><br>
+      <h2>Agustin De Luca</h2>
+      <p>Como joven estudiante de Licenciatura en Sistema, busco desarrollarme profesional y personalmente en el área de mi interés.  Pretendo integrar equipos de trabajo donde pueda aplicar mis conocimientos y adquirir nuevos. Soy honesto, puntual y responsable, con disponibilidad al trabajo creando un entorno ameno para dicho fin.</p>
+    </div>
+  </div>
+</div>
+<div class=" background2">
+  <div class="spacer">
+    <div class="row">
+<!--     <div class="col-md-4">
+      <div class="container-projects">
+      <p class="title">Proyecto Sahara-Bestnid</p>
+      <img class="avatarimage avatarimagespacer"src="images/PHP_logo.png" >
+      <img class="avatarimage avatarimagespacer"src="images/MySQL.svg.png" ><br>
+
+     <p> Proyecto Sahara-Bestnid: Desarrollo de sistema en php para un mercado subastas,con autenticación de usuarios y soporte para bd MySql relacional.git y pivotaltracker como herramientas de desarrollo en equipo. </p>
+     <a href="https://github.com/juanefsta/Sahara-Project" target="_blank">
+     <img  id="imggit" class="avatarimage avatarimagespacer"src="images/GitHub-Logo.png" ></a>
+      </div>
+    </div>
+
+ -->
+<!--     <div class="col-md-4 ">
+      <div class="container-projects">
+       <p class="title">Escuela Graduada Joaquin V. Gonzales</p>
+      <img class="avatarimage avatarimagespacer"src="images/laravel.png" >
+      <img class="avatarimage avatarimagespacer "src="images/PHP_logo.png" >
+      <img class="avatarimage avatarimagespacer"src="images/MySQL.svg.png" ><br>
+
+     <p>  Desarrollo de sistema en php utilizando ORMs propel y PDO.  con protección contra CSRF y XSS en seguridad, se  utilizó sistema de versionado git. Composer </p>
+      
+     <a href="https://github.com/agudeluca/Proyecto-2015" target="_blank"><img  id="imggit" class="avatarimage avatarimagespacer"src="images/GitHub-Logo.png" ></a>
+      </div>
+    </div> -->
+
+
+<!--    <div class="col-md-4 ">
+      <div class="container-projects">
+       <p class="title">Proyecto E-Vader</p>
+      <img class="avatarimage avatarimagespacer"src="images/rails.png" >
+      <img class="avatarimage avatarimagespacer "src="images/bundler.png">
+      <img class="avatarimage avatarimagespacer "src="images/sqllite.png"><br>
+
+     <p>  Sistema para administrar pagos de clientes desarrollado con Ruby. Se utilizó Ruby on Rails </p>
+     <a href="https://github.com/agudeluca/TTPS-Ruby" target="_blank"><img  id="imggit" class="avatarimage avatarimagespacer"src="images/GitHub-Logo.png" ></a>
+      </div>
+    </div> -->
+
+    <div class="col-md-4" ng-repeat="proyecto in proyectos">
+      <div class="container-projects">
+       <p class="title">{{proyecto.title.rendered}}</p>
+       <any ng-bind-html="proyecto.content.rendered"></any>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
