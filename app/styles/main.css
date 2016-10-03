@@ -1,6 +1,4 @@
-html{
-  
-}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -118,7 +116,7 @@ nav a:focus{
   padding: 2%
 }
 div .jumbotron{
-      margin-top: 11%;
+      margin-top: 6%;
 }
 .title{
   text-align: center;
