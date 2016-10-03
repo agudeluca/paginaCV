@@ -9,10 +9,12 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <!-- endbuild -->
   </head>
   <body ng-app="agustindelucaApp">
@@ -23,7 +25,7 @@
     <!-- Add your site or application content here -->
    
 <div class="background" >
- <nav class=" navbar-default">
+ <nav class="navbar customnavbar ">
          <a class="navbar-brand navbar-right" ng-href="#/contact">Contacto</a>
    <a class="navbar-brand navbar-right" href="https://www.dropbox.com/s/d1j0h0511bapu8n/CV_AgustinDeLuca.pdf?dl=0">Mi CV</a>
    <a class="navbar-brand navbar-right" href="#/">Home</a>
@@ -36,7 +38,7 @@
     <div class="col-md-4"  ng-repeat="proyecto in proyectos">
       <div class="container-projects">
        <p class="title">{{proyecto.title.rendered}}</p>
-       <any ng-bind-html="proyecto.content.rendered"></any>
+       <p align="center" ng-bind-html="proyecto.content.rendered"></p>
       </div>
     </div>
 
