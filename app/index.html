@@ -21,8 +21,30 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-
+   
+<div class="background" >
+ <nav class=" navbar-default">
+         <a class="navbar-brand navbar-right" ng-href="#/contact">Contacto</a>
+   <a class="navbar-brand navbar-right" href="https://www.dropbox.com/s/d1j0h0511bapu8n/CV_AgustinDeLuca.pdf?dl=0">Mi CV</a>
+   <a class="navbar-brand navbar-right" href="#/">Home</a>
+</nav>
     <div ng-view=""></div>
+    </div>
+<div class=" background2" ng-controller="MainCtrl">
+  <div class="spacer">
+    <div class="row">
+    <div class="col-md-4"  ng-repeat="proyecto in proyectos">
+      <div class="container-projects">
+       <p class="title">{{proyecto.title.rendered}}</p>
+       <any ng-bind-html="proyecto.content.rendered"></any>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -53,6 +75,8 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/contact.js"></script>
+        <script src="scripts/controllers/contacts.js"></script>
         <!-- endbuild -->
 </body>
 </html>
