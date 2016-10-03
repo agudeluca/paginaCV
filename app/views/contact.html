@@ -1,0 +1,34 @@
+
+
+  <div class=" container">
+    <div class="contactjumbtron jumbotron ">
+    <form name="contactForm" novalidate>
+    <div class="aa col-md-12">
+<h1 id="contactotitle">Contactame</h1>
+<hr>
+</div>
+ <div class="row">
+<div class="aa col-md-6">
+ <input type="text" class="customimput form-control" placeholder="nombre" id="usr" ng-model="form.nombre">
+</div>
+
+    <div class="aa col-md-6">
+        <input type="email" class="customimput form-control"  placeholder="inserte su correo"  name="input" ng-model="form.mail" required>
+     </div>
+
+   
+  <div class="aa col-md-12">
+  <textarea rows="8"class="customimput form-control" placeholder="mensaje" ng-model="form.mensaje" rows="5" id="comment"></textarea>
+</div>
+<div class="aa col-md-12">
+  <button class="btn botoncustom btn-block" type="submit"ng-click="processForm()" ng-disabled="contactForm.$invalid">Enviar</button>  
+</div>
+      </div>
+      </div>
+   </form>
+
+
+
+    </div> 
+ 
+   
