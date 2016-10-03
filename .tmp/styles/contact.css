@@ -1,0 +1,22 @@
+
+.botoncustom{
+
+	box-shadow: 10px 8px 16px -5px rgba(0,0,0,0.75);
+	    background: linear-gradient(to bottom, rgb(187, 187, 187) 0%, rgb(255, 255, 255) 100%);
+}
+.contactjumbtron{
+	padding: 3%;
+}
+
+.botoncustom:hover{
+	box-shadow: 10px 8px 16px -5px rgba(0,0,0,0.75);
+	    background:#787878;
+}
+#contactotitle{
+    color: #F4F4F2;
+    font-size: -webkit-xxx-large;
+    font-family: sans-serif;
+    border-color: bisque;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbnRhY3QuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTs7Q0FFQyxnREFBZ0Q7S0FDNUMsdUZBQXVGO0NBQzNGO0FBQ0Q7Q0FDQyxZQUFZO0NBQ1o7O0FBRUQ7Q0FDQyxnREFBZ0Q7S0FDNUMsbUJBQW1CO0NBQ3ZCO0FBQ0Q7SUFDSSxlQUFlO0lBQ2YsNkJBQTZCO0lBQzdCLHdCQUF3QjtJQUN4QixxQkFBcUI7Q0FDeEIiLCJmaWxlIjoiY29udGFjdC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5ib3RvbmN1c3RvbXtcblxuXHRib3gtc2hhZG93OiAxMHB4IDhweCAxNnB4IC01cHggcmdiYSgwLDAsMCwwLjc1KTtcblx0ICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCh0byBib3R0b20sIHJnYigxODcsIDE4NywgMTg3KSAwJSwgcmdiKDI1NSwgMjU1LCAyNTUpIDEwMCUpO1xufVxuLmNvbnRhY3RqdW1idHJvbntcblx0cGFkZGluZzogMyU7XG59XG5cbi5ib3RvbmN1c3RvbTpob3Zlcntcblx0Ym94LXNoYWRvdzogMTBweCA4cHggMTZweCAtNXB4IHJnYmEoMCwwLDAsMC43NSk7XG5cdCAgICBiYWNrZ3JvdW5kOiM3ODc4Nzg7XG59XG4jY29udGFjdG90aXRsZXtcbiAgICBjb2xvcjogI0Y0RjRGMjtcbiAgICBmb250LXNpemU6IC13ZWJraXQteHh4LWxhcmdlO1xuICAgIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICAgIGJvcmRlci1jb2xvcjogYmlzcXVlO1xufVxuIl19 */
