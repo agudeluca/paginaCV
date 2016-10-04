@@ -24,6 +24,17 @@ body {
 
 
 }
+footer{
+      background-color: rgba(0, 0, 0, 0.14);
+    color: rgba(255, 255, 255, 0.57);
+    margin-top: 5%;
+}
+footer div{
+    
+}
+footer div img{
+  width: 66px;
+}
 .background2{
   background: #fff url(../images/backgroundproyects.jpg) center/cover; 
   width: 100%;
